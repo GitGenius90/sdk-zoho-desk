@@ -1,0 +1,54 @@
+{
+    "name": "tklein/php-sdk-zoho-desk",
+    "description": "PHP SDK for Zoho Desk API v1 integration.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "sdk",
+        "client",
+        "oauth",
+        "zoho",
+        "desk",
+        "zoho-desk",
+        "support",
+        "ticket",
+        "service",
+        "customer-service",
+        "customer"
+    ],
+    "homepage": "https://github.com/thomas-kl1/php-sdk-zoho-desk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Klein",
+            "email": "thomasklein876@gmail.com",
+            "homepage": "https://www.linkedin.com/in/thomas-klein/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/thomas-kl1/php-sdk-zoho-desk",
+        "issues": "https://github.com/thomas-kl1/php-sdk-zoho-desk/issues"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4||^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoho\\Desk\\": "src/",
+            "Zoho\\OAuth\\": "lib/zoho/oauth/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zoho\\Desk\\": "tests/",
+            "Zoho\\OAuth\\": "lib/zoho/oauth/"
+        }
+    }
+}
